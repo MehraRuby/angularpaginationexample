@@ -10,7 +10,7 @@ import { MyserviceService } from '../myservice.service';
 export class ThirdpartyapiComponent {
 
 obj:Employee | any
-data=[]
+data: any = []
 
 constructor(private serv : MyserviceService){
 
@@ -44,8 +44,8 @@ getdata()
 
 class Employee
 {
-  id?:number 
-  employee_name?:string 
-  employee_salary?:number 
-  employee_age?:number 
-  profile_image?:string  }
+  id?:number |any 
+  employee_name?:string  |any
+  employee_salary?:number |any
+  employee_age?:number |any
+  profile_image?:string |any  }
